@@ -800,6 +800,7 @@ textarea::placeholder {
   width: 169px;
 }
 
+
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: var(--hover-focus-active-color);
