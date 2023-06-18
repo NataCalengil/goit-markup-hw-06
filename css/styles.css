@@ -624,7 +624,12 @@ body {
 }
 
 .modal-title {
-  padding: 0 0 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  margin-bottom: 16px; 
+  color:var(--secondary-text-color);
 }
 
 .modal-close-icon {
