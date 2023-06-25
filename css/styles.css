@@ -374,16 +374,12 @@ body {
 }
 
 .customers-social-link:is(:hover, :focus) {
-  border: 1px solid #404bbf;
-}
-
-.customers-social-link:is(:hover, :focus) .customers-social-icon {
-  fill: #404bbf;
+  border: 1px solid var(--hover-focus-active-color);
+  color: var(--hover-focus-active-color)
 }
 
 .customers-social-icon {
   fill: currentColor;
-  transition: fill var(--main-transition);
 }
 
 .customers-social-list {
